@@ -4,7 +4,7 @@ A sleek, modern desktop companion HUD that watches an online chess board (e.g. [
 
 ---
 
-## ✨ Features
+## Features
 
 - **Modern Redesigned HUD**: Deep obsidian dark theme (`#0f1117`), tournament-style mini-board, and glassmorphic card aesthetics.
 - **🔍 1-Click Auto-Detect**: Instantly finds the Chess.com board on your screen with one click.
@@ -27,7 +27,7 @@ A sleek, modern desktop companion HUD that watches an online chess board (e.g. [
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Open your terminal and run:
 
@@ -38,7 +38,7 @@ cd ~/Desktop/chess-companion
 
 ---
 
-## 🎯 How to Calibrate & Use
+## How to Calibrate & Use
 
 1. **Open your Chess Game**:
    - Open Chess.com or Lichess in your web browser.

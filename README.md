@@ -1,14 +1,14 @@
 # ♟ Chess Companion HUD
 
 A sleek, modern desktop companion HUD that watches an online chess board (e.g. [Chess.com](https://www.chess.com) or [Lichess](https://lichess.org)), detects the board state in real-time using computer vision, and calculates the best move for your side using **Stockfish 19**.
-
+(This is in early development so if an error arises then please change the theme of the chess pieces to Neo, Classic or Neo Wood and the board theme must be wood/classic)
 ---
 
 ## Features
 
 - **Modern Redesigned HUD**: Deep obsidian dark theme (`#0f1117`), tournament-style mini-board, and glassmorphic card aesthetics.
-- **🔍 1-Click Auto-Detect**: Instantly finds the Chess.com board on your screen with one click.
-- **🎯 Desktop Snip Tool**: Freezes your screen in-place (no macOS space switching or black screens) so you can drag-select over your actual chessboard with an 8x8 alignment grid.
+- ** 1-Click Auto-Detect**: Instantly finds the Chess.com board on your screen with one click.
+- ** Desktop Snip Tool**: Freezes your screen in-place (no macOS space switching or black screens) so you can drag-select over your actual chessboard with an 8x8 alignment grid.
 - **100% Accurate Computer Vision**: Uses corner background sampling and synthetic composite template matching (supports Chess.com Neo & Classic piece sets).
 - **Stockfish 19 Engine**: Bundled Apple Silicon / macOS universal binary with NNUE support for master-level depth evaluation.
 - **Perspective & Side Auto-Detection**:
@@ -43,13 +43,13 @@ cd ~/Desktop/chess-companion
 1. **Open your Chess Game**:
    - Open Chess.com or Lichess in your web browser.
 2. **Lock onto the Board**:
-   - **Method A (Easiest)**: Click **`🔍 Auto-Detect`**. The app scans your display and locks onto the Chess.com board in one second!
-   - **Method B (Manual Snip)**: Click **`🎯 Snip Board`**. A frozen capture of your screen will appear right in front of you. Click and drag a box across the 8x8 chessboard from top-left to bottom-right (green alignment grid lines guide you).
+   - **Manual Snip)**: Click **` Snip Board`**. A frozen capture of your screen will appear right in front of you. Click and drag a box across the 8x8 chessboard from top-left to bottom-right (green alignment grid lines guide you).
 3. **Analyze**:
-   - Press **`⚡ Analyze`** (or press <kbd>Space</kbd> / <kbd>Enter</kbd>) to calculate the best move immediately.
-   - Or toggle **`[x] 🔄 Auto-Scan`** to let the HUD automatically track moves in the background.
+   - **`Auto Analyses`** to calculate the best move immediately.
 4. **Choose Side / Perspective**:
    - Click the segmented pill buttons (`Auto`, `White`, `Black`) to toggle sides on the fly.
+5. **Reset**: 
+   - Resets board when encountering an error
 
 ---
 

@@ -1,0 +1,13 @@
+{
+  "board_bbox": [
+    109,
+    187,
+    641,
+    716
+  ],
+  "theme": "alpha",
+  "side": "white",
+  "depth": 15,
+  "audio": false,
+  "auto_scan": true
+}

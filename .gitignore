@@ -1,0 +1,19 @@
+# Virtual Environment 
+env/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac / OS files
+.DS_Store
+.Rhistory
+
+# Debug Images & Test Artifacts
+*.png
+!assets/pieces/**/*.png
+
+# IDE settings
+.vscode/
